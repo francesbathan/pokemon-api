@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+}
+.fetchBtn {
+  margin: 1vw auto;
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: red;
+  border: 3px solid yellow;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12pt;
+  display: block;
+}
+.fetchBtn:hover {
+  margin: 1vw auto;
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: yellow;
+  border: 3px solid red;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12pt;
+  display: block;
+}
+.pokemonChars {
+  margin: 30px;
+}
