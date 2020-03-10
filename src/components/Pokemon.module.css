@@ -5,28 +5,33 @@
 }
 .fetchBtn {
   margin: 1vw auto;
-  padding: 5px 30px;
+  padding: 20px 50px;
   border-radius: 10px;
   background-color: red;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
+  box-shadow: 3px 3px 0px yellow;
   color: white;
   font-weight: bold;
   cursor: pointer;
   font-size: 12pt;
   display: block;
+  outline: none;
+  border: none;
 }
 .fetchBtn:hover {
   margin: 1vw auto;
-  padding: 5px 30px;
+  padding: 20px 50px;
   border-radius: 10px;
   background-color: yellow;
-  border: 3px solid red;
   color: red;
   font-weight: bold;
   cursor: pointer;
   font-size: 12pt;
   display: block;
+  box-shadow: 3px 3px 0px red;
+  outline: none;
+  border: none;
 }
 .pokemonChars {
-  margin: 30px;
+  margin: 20px;
 }
